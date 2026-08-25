@@ -19,6 +19,10 @@ dependencies {
     implementation(ktorLibs.server.core)
     implementation(ktorLibs.server.netty)
     implementation("io.ktor:ktor-server-content-negotiation:3.5.0")
+    implementation("org.jetbrains.exposed:exposed-core:0.56.0")
+    implementation("org.jetbrains.exposed:exposed-jdbc:0.56.0")
+    implementation("org.jetbrains.exposed:exposed-dao:0.56.0")
+    implementation("org.postgresql:postgresql:42.7.4")
     implementation("io.ktor:ktor-serialization-kotlinx-json:3.5.0")
     implementation(libs.logback.classic)
 
